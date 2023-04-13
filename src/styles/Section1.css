@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sec1 {
+  background-color: #7c20be;
+  height: 55vh;
+  text-align: start;
+  padding: 20px;
+}
+.sec1a {
+  position: absolute;
+  z-index: 2;
+}
+.sec1a .btn {
+  width: 75%;
+}
+.sec1a h1 {
+  font-family: "Roboto";
+  font-style: normal;
+}
+.sec1a p {
+  font-family: "Inter";
+  font-style: normal;
+}
+.twocircle {
+  width: 90vw;
+  position: relative;
+  z-index: 1;
+}
+.app-play img {
+  width: 33vw;
+}
+@media (min-width: 992px) {
+  .sec1 {
+    display: flex;
+    padding: 65px;
+    height: 96vh;
+  }
+  .sec1a {
+    /* padding-top: 150px; */
+    /* position: unset; */
+    margin-top: 40px;
+    width: 40vw;
+    /* border: 1px solid red; */
+  }
+  .sec1a h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+  }
+  .sec1a p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    width: 30vw;
+  }
+  .sec1a .btn {
+    width: 60%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  .twocircle {
+    /* position: unset; */
+    left: 30%;
+    bottom: 70px;
+    width: 65%;
+    /* border: 1px solid red; */
+  }
+  .app-play img {
+    width: 28%;
+  }
+}

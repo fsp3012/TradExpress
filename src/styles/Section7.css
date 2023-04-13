@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sec7 {
+    background-color: #ede9ef;
+    gap: 100px;
+    padding-top: 30px;
+}
+ul{
+    list-style: none;
+    line-height: 30px;
+}
+ul li {
+    color: #26093a;
+}
+ul li h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media (min-width:992px){
+ .sec7{
+    display: flex;
+    flex-direction: row;
+ }
+}

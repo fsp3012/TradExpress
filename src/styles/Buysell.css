@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+select{
+    margin-right: 50%;
+    border: none;
+    height: 7vh;
+    margin-bottom: 40px;
+}
+.btnn{
+    border: none;
+    border-right: 1px solid;
+    width: 15vw;
+    padding-left: 10px;
+
+}
+.btnn2{
+    width: 50vw;
+    padding-left: 20px;
+}
+.buy input{
+    height: 7vh;
+}
+.btnnn{
+    height: 7vh;
+}
+.buy{
+    width: 90%;
+    max-width: 512px;
+    margin:0 auto;
+    background-color: #EEEDEE;
+}
+@media (min-width:992px){
+    .coin{
+        font-size: 15px;
+    }
+    select{
+        margin-right: 50%;
+        border: none;
+        height: 7vh;
+        margin-bottom: 40px;
+    }
+    .btns > button{
+        height: 7vh;
+    }
+    .btnn{
+        border: none;
+        border-right: 1px solid;
+        width: 5vw;
+        padding-left: 20px;
+    
+    }
+    .btnn2{
+        width: 50vw;
+        padding-left: 20px;
+    }
+    /* .btnnn{
+        height: 7vh;
+    } */
+    .buy input{
+        height: 7vh;
+    }
+    .btnnn{
+        height: 7vh;
+    }
+}

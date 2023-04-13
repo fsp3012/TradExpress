@@ -1,0 +1,36 @@
+.individual{
+    background-color: #EEEDEE;
+    width: 90vw;
+    margin: 50px auto;
+}
+.btn1{
+    border-radius:40px;
+    background-color:#E4E4E4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75vw;
+    height: 6vh;
+    margin-left: 20px;
+}
+.btn1 button{
+    background-color: transparent;
+    border-radius: 40px;
+    color: black;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+.btn1 button.active{
+    background-color: white;
+}
+@media (min-width:992px){
+    .individual{
+        background-color: #EEEDEE;
+        width: 40vw;
+    }
+    .btn1{
+    width: 30vw;
+    margin-left: 70px;
+
+
+    }
+}

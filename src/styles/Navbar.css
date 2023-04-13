@@ -1,0 +1,12 @@
+.nav1{
+    background-color:#7C20BE;
+}
+.text-purple{
+    color: #7C20BE;
+}
+@media(min-width:992px){
+    .me-auto{
+        width: 100%;
+        margin-left: 50%;
+    }
+}

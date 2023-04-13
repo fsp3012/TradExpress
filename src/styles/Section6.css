@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color:#26093A;
+}
+.sec6a {
+  width: 350px;
+}
+.sec6c {
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.sec6c img {
+  width: 70px;
+  height: 70px;
+}
+.sec6d {
+  position: relative;
+}
+.sec6d p {
+  color: white;
+  width: 90%;
+  margin-left: 20px;
+}
+.sec6d > div > img {
+  margin-right: 80%;
+}
+.sec6d div {
+  position: absolute;
+  top: 25px;
+}
+@media (min-width: 992px) {
+  .sec6 {
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+  }
+  div > h2 {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  .sec6d {
+    position: relative;
+  }
+  .sec6d p {
+    color: white;
+    width: 90%;
+    margin-left: 20px;
+  }
+  .sec6d > div > img {
+    margin-right: 80%;
+  }
+  .sec6d div {
+    position: absolute;
+    top: 25px;
+  }
+}

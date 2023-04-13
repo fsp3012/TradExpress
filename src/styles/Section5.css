@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sec5 {
+  background-color: #ede9ef;
+  text-align: start;
+  padding: 40px;
+ 
+}
+.sec5 p {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+.sec5 h2 {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+}
+.sec5 .btn {
+  width: 75%;
+}
+.bg-purple {
+  background-color: #7c20bf;
+}
+.app-play2 img {
+  width: 33vw;
+}
+@media (min-width: 992px) {
+  .sec5 {
+    text-align: center;
+  }
+  .sec5 p {
+    font-size: 20px;
+  }
+  .sec5 h2 {
+    font-size: 30px;
+  }
+  .sec5 .btn {
+    width: 24%;
+    margin-top: 30px;
+  }
+  .app-play2 img {
+    width: 11vw;
+  }
+  .app-play2 {
+    margin-left: 38%;
+  }
+}

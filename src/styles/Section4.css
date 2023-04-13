@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.text-purple1 {
+  color: #26093a;
+}
+.text-blackk {
+  color: #292929;
+}
+.sec4 > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+}
+.sec4 > p {
+  font-family: "Roboto";
+  font-style: normal;
+}
+.flex4a{
+    margin-bottom: 50px;
+}
+.flex4a p{
+    text-align: start;
+}
+.flex4b{
+    margin-bottom: 50px;
+}
+.flex4b p{
+    text-align: start;
+
+}
+.flex4b1{
+    width: 350px;
+}
+@media (min-width: 992px) {
+    .sec4{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+  .sec4 > h2 {
+    font-size: 29px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+  }
+  .sec4 > p {
+    font-size: 15px;
+    width: 55vw;
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+  }
+  .flex4a {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .flex4a h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    color: #292929;
+  }
+  .flex4a p {
+    font-family: "Roboto";
+    font-style: normal;
+    /* border: 1px solid red; */
+    width: 40vw;
+    text-align: start;
+    margin-left: 65px;
+    color: #292929;
+  }
+  .flex4a > div{
+    /* border: 1px solid red; */
+    margin-top: 100px;
+  }
+  .flex4b{
+    display: flex;
+    justify-content: unset;
+    gap: 10rem;
+    flex-direction: row-reverse;
+  }
+  .flex4b p{
+    width: 40vw;
+    text-align: start;
+    margin-left: 65px;
+  }
+  .flex4b > div{
+    margin-top: 100px;
+  }
+  .flex4b1{
+    width: unset;
+}
+}

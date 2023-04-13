@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+form {
+  background-color: #eeedee;
+  width: 90vw;
+  margin: 0 auto;
+  /* padding-bottom: 15px; */
+}
+/* .btn1 {
+  margin-top: 50px;
+  position: relative;
+  left: 50px;
+}
+.b1 {
+  width: 40vw;
+  border: none;
+  height: 5vh;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  left: -30px;
+}
+.b2 {
+  width: 52vw;
+  border: none;
+  border-radius: 20px;
+  height: 5vh;
+  background-color: #e4e4e4;
+  padding-left: 50px;
+} */
+.indi input {
+  padding-left: 20px;
+  color: black;
+  border: none;
+  background-color: white;
+  height: 6vh;
+  width: 80vw;
+  border-radius: 5px;
+}
+input::placeholder {
+  color: black;
+}
+.ptext {
+  width: 80vw;
+  font-size: 12px;
+}
+.bttn {
+  width: 80vw;
+  height: 6vh;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.pp {
+  font-size: 12px;
+}
+@media (min-width: 992px) {
+  form {
+    background-color: #eeedee;
+    width: 40vw;
+    margin: 0 auto;
+    /* padding-bottom: 15px; */
+  }
+  .inp {
+    color: black;
+    margin-left: 60px;
+  }
+  .indi input {
+    padding-left: 20px;
+    color: black;
+    border: none;
+    background-color: white;
+    height: 6vh;
+    width: 30vw;
+    border-radius: 5px;
+  }
+  /* .btn1 {
+    margin-top: 50px;
+    position: relative;
+    left: 50px;
+  }
+  .b1 {
+    width: 15vw;
+    border: none;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    left: 20px;
+  }
+  .b2 {
+    width: 24vw;
+    border: none;
+    border-radius: 20px;
+    height: 5vh;
+    background-color: #e4e4e4;
+    padding-left: 90px; */
+  /* } */
+  .bttn {
+    width: 30vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+  .ptext {
+    width: 25vw;
+    font-size: 15px;
+  }
+  .pp{
+    font-size: 15px;
+  }
+}
