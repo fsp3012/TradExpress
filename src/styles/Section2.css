@@ -3,11 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* @media(min-width:992px){
-    .sec2{
-        padding-left: 100px;
-    }
-} */
 .sec2{
     width: 95%;
     margin: 0 auto;
