@@ -7,7 +7,8 @@ import cuate from "../images/cuate.png";
 import amico from "../images/amico.png";
 
 const Section3 = () => {
-  const [seeLess, setSeeLess] = useState(true);
+  const [see, setSee] = useState(true);
+  const btnText = see ? 'See Less' : 'See More'
 
   return (
     <div>
@@ -17,13 +18,13 @@ const Section3 = () => {
         </h2>
         <Link
           onClick={() => {
-            setSeeLess(!seeLess);
+            setSee(!see);
           }}
           className="text-decoration-none btn px-4 mx-auto text-purple"
         >
-          See Less
+          {btnText}
         </Link>
-        {seeLess && (
+        {see && (
           <div className="sec3a">
             <div className="border-1 rounded-2 bg-white p-3 bod mx-auto">
               <img src={rafiki} alt="" />

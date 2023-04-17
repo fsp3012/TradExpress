@@ -32,6 +32,11 @@
 .app-play img {
   width: 33vw;
 }
+@media (min-width:430px){
+  .twocircle{
+    width: 40%;
+  }
+}
 @media (min-width: 992px) {
   .sec1 {
     display: flex;

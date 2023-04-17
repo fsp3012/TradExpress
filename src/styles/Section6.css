@@ -44,6 +44,9 @@ div > h2 {
     display: flex;
     gap: 50px;
   }
+  .sec6a {
+    width: 270px;
+  }
   div > h2 {
     font-size: 30px;
     padding-top: 30px;
@@ -55,6 +58,7 @@ div > h2 {
     color: white;
     width: 90%;
     margin-left: 20px;
+    font-size: 13px;
   }
   .sec6d > div > img {
     margin-right: 80%;
@@ -62,5 +66,19 @@ div > h2 {
   .sec6d div {
     position: absolute;
     top: 25px;
+  }
+}
+@media(min-width:1440px){
+  .sec6a {
+    width: 350px;
+  }
+  .sec6c img{
+    margin-left: 50px;
+  }
+  .sec6d{
+    margin-left: 50px;
+  }
+  .sec6d p{
+    font-size: 15px;
   }
 }
